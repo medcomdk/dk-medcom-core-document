@@ -1,7 +1,7 @@
-Profile: MedComDocumentPatient
+Profile: MedComCoreDocumentPatient
 Parent: DkCorePatient
-Id: medcom-document-patient
-Description: "A profile including requirements for a MedCom Document Patient."
+Id: medcom-core-document-patient
+Description: "A profile including requirements for a MedCom Core Document Patient."
 * text MS
 * identifier 1..1 MS
 * identifier[cpr] ^short = "Unique identification number for all citizens in Denmark, called civil person register (CPR-number)."

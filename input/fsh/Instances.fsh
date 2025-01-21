@@ -1,5 +1,5 @@
 Instance: 42cb9200-f421-4d08-8391-7d51a2503cb4
-InstanceOf: MedComDocumentPractitioner
+InstanceOf: MedComCoreDocumentPractitioner
 Title: "Author Person"
 Description: "Instance of an author person"
 Usage: #example
@@ -16,7 +16,7 @@ Usage: #example
 * name = "Lægerne Hasseris Bymidte"
 
 Instance: 37628912-7816-47a3-acd8-396b610be142
-InstanceOf: MedComDocumentPatient
+InstanceOf: MedComCoreDocumentPatient
 Title: "Patient"
 Description: "Instance of a patient"
 Usage: #example

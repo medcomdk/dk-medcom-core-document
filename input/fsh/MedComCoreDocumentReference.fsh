@@ -1,6 +1,6 @@
-Profile: MedComDocumentReference
+Profile: MedComCoreDocumentReference
 Parent: DocumentReference
-Id: medcom-documentreference
+Id: medcom-core-documentreference
 Description: "A profile stating the rules, when exchanging a FHIR document."
 * masterIdentifier 1..1 MS
 * masterIdentifier.value 1..1 MS
@@ -104,7 +104,7 @@ Severity: #error
 Expression: "where(type.coding.where(system = 'http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/dk-ihe-typecode-de-regenstrief').code = '56446-8').context.event.coding.code = 'ALAL01'"
 */
 
-Invariant: uuid
+Invariant: uuid1
 Description: "General UUID expression"
 Severity: #error
 Expression: "value.matches('[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}')"

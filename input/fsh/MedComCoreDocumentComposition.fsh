@@ -6,10 +6,10 @@ Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $list-order = http://terminology.hl7.org/CodeSystem/list-order
 Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
 
-Profile: MedComDocumentComposition
+Profile: MedComCoreDocumentComposition
 Parent: Composition
-Id: medcom-document-composition
-Description: "The profile of the MedCom Document Composition containing the minimum allowed content."
+Id: medcom-core-document-composition
+Description: "The profile of the MedCom Core Document Composition containing the minimum allowed content."
 //* meta.language 0..1 MS
 * meta.profile 1..1 MS
 * confidentiality 1..1 MS
@@ -18,7 +18,7 @@ Description: "The profile of the MedCom Document Composition containing the mini
 * status MS
 * type 1..1 MS
 * subject 1.. MS
-* subject only Reference(MedComDocumentPatient)
+* subject only Reference(MedComCoreDocumentPatient)
 * subject ^type.aggregation = #bundled
 * date 1..1 MS
 * event 0..1 MS
@@ -32,15 +32,15 @@ Description: "The profile of the MedCom Document Composition containing the mini
 * author contains
     institution 1..1 MS and
     person 0..1 MS 
-* author[institution] only Reference(MedComDocumentOrganization)
+* author[institution] only Reference(MedComCoreDocumentOrganization)
 * author[institution] ^short = "The organization who authored the document"
-* author[person] only Reference(MedComDocumentPractitioner)
+* author[person] only Reference(MedComCoreDocumentPractitioner)
 * author[person] ^short = "The person who authored the document"
 * author ^type.aggregation = #bundled
 * attester 0..1 MS
 * attester.party 0..1 MS
 * attester.mode MS
-* attester.party only Reference(MedComDocumentPractitioner)
+* attester.party only Reference(MedComCoreDocumentPractitioner)
 * attester.party ^type.aggregation = #bundled
 * title MS
 * language 1..1 MS

@@ -1,4 +1,4 @@
-Profile: MedComDocumentOrganization
+Profile: MedComCoreDocumentOrganization
 Parent: MedComCoreOrganization
 Id: medcom-document-organization
 Description: "A profile including requirements for a MedCom Document Organization resource"
