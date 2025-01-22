@@ -1,5 +1,5 @@
 Profile: MedComDocumentReference
-Parent: DocumentReference
+Parent: MedComCoreDocumentReference
 Id: medcom-documentreference
 Description: "A profile stating the rules, when exchanging a FHIR document."
 * masterIdentifier 1..1 MS
@@ -32,6 +32,7 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * author ^slicing.discriminator.type = #type
   * ^slicing.discriminator.path = "$this.resolve()"
   * ^slicing.rules = #closed
+/*
 * author contains
     institution 1..1 and
     person 0..1
@@ -41,6 +42,7 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * author[person] MS
 * author[person] only Reference(MedComCoreDocumentPractitioner)
 * author[person] ^short = "[DocumentEntry.author.authorPerson] The person who authored the document"
+*/
 * securityLabel 1.. MS  
 * securityLabel ^short = "[DocumentEntry.confidentialityCode] Document security-tags"
 * subject 1..1 MS
