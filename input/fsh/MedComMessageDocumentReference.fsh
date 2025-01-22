@@ -1,6 +1,6 @@
-Profile: MedComMsgDocumentReference
+Profile: MedComMessageDocumentReference
 Parent: MedComCoreDocumentReference
-Id: medcom-msg-documentreference
+Id: medcom-message-documentreference
 Description: "A profile stating the rules, when exchanging a FHIR message as a FHIR document."
 * masterIdentifier 1..1 MS
 * masterIdentifier.value 1..1 MS
