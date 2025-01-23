@@ -18,7 +18,12 @@ releaseLabel: release # ci-build | draft | qa-preview | ballot | trial-use | rel
 publisher:
   name: MedCom
   url: http://www.medcom.dk
-  # email: test@example.org
+contact:
+  - name: MedCom FHIR Team
+    telecom:
+      - system: email
+        value: fhir@medcom.dk
+        use: work
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
