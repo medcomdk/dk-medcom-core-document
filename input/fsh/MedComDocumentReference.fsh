@@ -2,6 +2,7 @@ Profile: MedComDocumentReference
 Parent: MedComCoreDocumentReference
 Id: medcom-documentreference
 Description: "A profile stating the rules, when exchanging a FHIR document."
+/*
 * masterIdentifier 1..1 MS
 * masterIdentifier.value 1..1 MS
 * masterIdentifier ^short = "[DocumentEntry.uniqueId] Master Version Specific Identifier"
@@ -43,6 +44,7 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * author[person] only Reference(MedComCoreDocumentPractitioner)
 * author[person] ^short = "[DocumentEntry.author.authorPerson] The person who authored the document"
 */
+/*
 * securityLabel 1.. MS  
 * securityLabel ^short = "[DocumentEntry.confidentialityCode] Document security-tags"
 * subject 1..1 MS
@@ -64,6 +66,7 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * content.format 1.. MS
 /* * content.format.coding.code 1.. MS
 * content.format.coding.system 1.. MS */
+/*
 * content.attachment.size 0.. MS
 * content.attachment.title 1.. MS
 * content.attachment.url 0.. MS
@@ -98,16 +101,17 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
     medcom-core-document-version-id-extension named versionid 1..1 MS SU
 * extension[homeCommunityid] ^short = "[DocumentEntry.homeCommunityId] A unique identifier for a community where the DocumentEntry and document can be accessed"
 * extension[versionid] ^short = "Specifies the version of the DocumentReference for a standard."
-
+*/
 
 /* Invariant: apd-dk-rule-1
 Description: "Where formatCode is 'urn:ad:dk:medcom:appointmentsummary:full', the eventCode must be 'ALAL01' (hjertesygdomme)"
 Severity: #error
 Expression: "where(type.coding.where(system = 'http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/dk-ihe-typecode-de-regenstrief').code = '56446-8').context.event.coding.code = 'ALAL01'"
 */
-
+/*
 Invariant: uuid
 Description: "General UUID expression"
 Severity: #error
 Expression: "value.matches('[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}')"
 
+*/
