@@ -25,7 +25,7 @@ Description: "A profile stating the rules, when exchanging a FHIR message as a F
 * category 1..1 MS 
 * category from $ClassCode (extensible)
 */
-* category.coding.code = #workflow
+* category.coding.code = $ClassCodeCS#Workflow
 /*
 * category.coding.system 1.. MS
 * category ^short = "[DocumentEntry.class] Categorization of document"
@@ -66,8 +66,9 @@ Description: "A profile stating the rules, when exchanging a FHIR message as a F
 * content.attachment.hash ^short = "[DocumentEntry.hash] Hash of the data (sha-1)"
 * content.format ^short = "[DocumentEntry.formatCode] Format/content rules for the document"
 * content.format 1.. MS
-/* * content.format.coding.code 1.. MS
-* content.format.coding.system 1.. MS */
+*/
+* content.format.coding.code $FormatCodeCS#
+/* content.format.coding.system 1.. MS */
 /*
 * content.attachment.size 0.. MS
 * content.attachment.title 1.. MS
