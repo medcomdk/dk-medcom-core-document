@@ -2,11 +2,6 @@
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
 Alias: $RequestPriority = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-careCommunication-requestPriority 
 */
-Alias: $QrdTypeCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-qrd-typecode-VS
-Alias: $QrdEventCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-qrd-eventcodelist-VS
-Alias: $QrdHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-qrd-homeCommunityId-VS
-Alias: $QrdFormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-qrd-formatcode-VS
-
 //used for instances
 Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-classcode-CS
 Alias: $TypeCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-LOINC-typecode-CS
@@ -29,10 +24,22 @@ Alias: $PhadEventCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-i
 Alias: $PhadHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-phad-homeCommunityId-VS
 Alias: $PhadFormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-phad-formatcode-VS
 
-Alias: $HcoTypeCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-hco-typecode-VS
-Alias: $HcoEventCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-hco-eventcodelist-VS
-Alias: $HcoHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-homeCommunityId-VS
-Alias: $HcoFormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-formatcode-VS
+Alias: $QrdTypeCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-qrd-typecode-VS
+Alias: $QrdEventCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-qrd-eventcodelist-VS
+Alias: $QrdHomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-qrd-homeCommunityId-VS
+Alias: $QrdFormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-qrd-formatcode-VS
+
+Alias: $MessageClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-classcode 
+Alias: $MessageTypeCodeCS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-typecode
+Alias: $MessageEventCodeCS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-eventcodelist
+Alias: $MessageHomeCommunityIDCS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-homeCommunityId
+Alias: $MessageFormatCodeCS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-formatcode
+
+Alias: $MessageClassCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-classcode-VS
+Alias: $MessageTypeCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-typecode-VS
+Alias: $MessageEventCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-eventcodelist-VS
+Alias: $MessageHomeCommunityIDVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-homeCommunityId-VS
+Alias: $MessageFormatCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-formatcode-VS
 
 /* Example of defining aliases (henviser til et CodeSystem eller ValueSet): 
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
