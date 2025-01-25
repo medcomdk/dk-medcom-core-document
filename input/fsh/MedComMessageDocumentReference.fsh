@@ -26,7 +26,7 @@ Description: "A profile stating the rules, when exchanging a FHIR message as a F
 * category 1..1 MS 
 * category from $ClassCode (extensible)
 */
-* category.coding.code = $MessageClassCodeCS#Workflow
+//* category.coding.code = $MessageClassCodeCS#Workflow
 /*
 * category.coding.system 1.. MS
 * category ^short = "[DocumentEntry.class] Categorization of document"
