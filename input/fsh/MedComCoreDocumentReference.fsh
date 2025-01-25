@@ -6,7 +6,7 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * masterIdentifier.value 1..1 MS
 * masterIdentifier ^short = "[DocumentEntry.uniqueId] Master Version Specific Identifier"
 * identifier 1..1 MS
-* identifier.value 1..1 MS 
+* identifier.value 0..1 MS 
 * identifier ^short = "[DocumentEntry.entryUUID] Identifier for the document"
 * identifier obeys uuid
 * status MS 
