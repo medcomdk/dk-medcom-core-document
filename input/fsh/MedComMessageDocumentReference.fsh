@@ -17,7 +17,7 @@ Description: "A profile stating the rules, when exchanging a FHIR message as a F
 * type ^short = "[DocumentEntry.typeCode] Kind of document"
 * type.coding.system 1.. MS
 */
-* type.coding.code = $TypeCodeCS#MsgHCO
+* type.coding.code from $MessageTypeCodeCS
 /* authenticator 0..1 MS
 * authenticator ^short = "[DocumentEntry.legalAuthenticator] Who authenticated the document"
 * authenticator only Reference(MedComCoreDocumentPractitioner)
@@ -26,7 +26,7 @@ Description: "A profile stating the rules, when exchanging a FHIR message as a F
 * category 1..1 MS 
 * category from $ClassCode (extensible)
 */
-* category.coding.code = $ClassCodeCS#Workflow
+* category.coding.code = $MessageClassCodeCS#Workflow
 /*
 * category.coding.system 1.. MS
 * category ^short = "[DocumentEntry.class] Categorization of document"
@@ -68,7 +68,7 @@ Description: "A profile stating the rules, when exchanging a FHIR message as a F
 * content.format ^short = "[DocumentEntry.formatCode] Format/content rules for the document"
 * content.format 1.. MS
 */
-* content.format.coding.code = $FormatCodeCS#urn:ad:dk:medcom:msg:hco-v1.1:full
+//* content.format.coding.code = $FormatCodeCS#urn:ad:dk:medcom:msg:hco-v1.1:full
 /* content.format.coding.system 1.. MS */
 /*
 * content.attachment.size 0.. MS
