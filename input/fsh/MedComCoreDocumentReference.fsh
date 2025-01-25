@@ -23,8 +23,8 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 // ClassCode
 * category 1..1 MS 
 * category from $ClassCode (extensible)
-* category.coding.code 1.. MS
-* category.coding.system 1.. MS
+//* category.coding.code 1.. MS
+//* category.coding.system 1.. MS
 * category ^short = "[DocumentEntry.class] Categorization of document"
 * author 1..2 MS 
 * author ^type.aggregation = #contained
