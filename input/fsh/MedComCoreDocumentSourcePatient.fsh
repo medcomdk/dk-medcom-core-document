@@ -1,5 +1,5 @@
 Profile: MedComCoreDocumentPatient
-Parent: DkCorePatient
+Parent: MedComCorePatient
 Id: medcom-core-document-patient
 Description: "A profile including requirements for a MedCom Core Document Patient."
 * text MS
