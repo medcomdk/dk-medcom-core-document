@@ -7,7 +7,7 @@ Usage: #example
 * name.family = "Andersen"
 
 Instance: 8fa7df76-bec2-4fe2-9a44-750030a0eda0
-InstanceOf: MedComCoreOrganization
+InstanceOf: MedComCoreDocumentOrganization
 Title: "XDS Author Organization instance"
 Description: "Instance of an author organization"
 Usage: #example
