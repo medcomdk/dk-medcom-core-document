@@ -4,7 +4,7 @@ Alias: $RequestPriority = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-ca
 */
 //used for instances
 Alias: $ClassCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-classcode-CS
-Alias: $TypeCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-LOINC-typecode-CS
+Alias: $TypeCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-core-typecode-CS
 Alias: $ContentTypeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-mimeType-CS
 Alias: $LanguageCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-LanguageCode-CS
 Alias: $FormatCodeCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-formatcode-CS
