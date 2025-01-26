@@ -24,14 +24,14 @@ Alias: $FacilityTypeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe
 
 
 Alias: $MessageClassCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-ihe-msg-classcode 
-Alias: $MessageTypeCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-ihe-msg-typecode
+Alias: $MessageTypeCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-xds-msg-typecode
 Alias: $MessageEventCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-ihe-msg-eventcodelist
 //Alias: $MessageHomeCommunityIDCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-ihe-hco-homeCommunityId
 Alias: $MessageFormatCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-ihe-msg-formatcode
 
 /*
 Alias: $MessageClassCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-classcode-VS
-Alias: $MessageTypeCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-typecode-VS
+Alias: $MessageTypeCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-xds-msg-typecode-VS
 Alias: $MessageEventCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-dk-ihe-msg-eventcodelist-VS
 Alias: $MessageHomeCommunityIDVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-homeCommunityId-VS
 Alias: $MessageFormatCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-hco-formatcode-VS
