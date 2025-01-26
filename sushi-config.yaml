@@ -30,9 +30,9 @@ contact:
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  medcom.fhir.dk.xdsmetadata: 1.0.0
-  medcom.fhir.dk.core: 2.4.0
   hl7.fhir.dk.core: 3.2.0
+  medcom.fhir.dk.core: 2.4.0
+  medcom.fhir.dk.xdsmetadata: 1.0.0
 
 #
 #
