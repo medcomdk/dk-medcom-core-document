@@ -14,6 +14,15 @@ Alias: $PracticeSettingCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCo
 Alias: $HomeCommunityIDCS = http://medcomfhir.dk/ig/xdsmetadata/CodeSystem/MedCom-ihe-homeCommunityId-CS
 Alias: $StatusCS = http://hl7.org/fhir/document-reference-status
 
+Alias: $ClassCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-classcode-VS
+Alias: $ContentTypeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-mimetype-VS
+Alias: $LanguageVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-languagecode-VS
+Alias: $FormatCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-formatcode-VS
+Alias: $HomeCommunityIDVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-homeCommunityId-VS
+Alias: $PracticeSettingVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-PracticeSettingCode-VS
+Alias: $FacilityTypeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-HealthcareFacilityTypeCode-VS
+
+
 Alias: $MessageClassCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-ihe-msg-classcode 
 Alias: $MessageTypeCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-ihe-msg-typecode
 Alias: $MessageEventCodeCS = http://medcomfhir.dk/ig/dk-medcom-core-document/ValueSet/MedCom-dk-ihe-msg-eventcodelist
@@ -31,19 +40,6 @@ Alias: $MessageFormatCodeVS = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCo
 Alias: $ActCodes = http://terminology.hl7.org/CodeSystem/v3-ActCode 
 Alias: $RequestPriority = http://medcomfhir.dk/ig/terminology/ValueSet/medcom-careCommunication-requestPriority 
 */
-Alias: $ClassCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-classcode-VS
-
-Alias: $ContentType = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-mimetype-VS
-
-Alias: $Language = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-languagecode-VS
-
-Alias: $FormatCode = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-formatcode-VS
-
-Alias: $HomeCommunityID = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-homeCommunityId-VS
-
-Alias: $PracticeSetting = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-PracticeSettingCode-VS
-
-Alias: $FacilityType = http://medcomfhir.dk/ig/xdsmetadata/ValueSet/MedCom-ihe-core-HealthcareFacilityTypeCode-VS
 
 Alias: $DanishiheOID = urn:oid:1.2.208.184.100.9
 Alias: $SnomedctOID = urn:oid:2.16.840.1.113883.6.96
