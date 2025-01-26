@@ -1,11 +1,3 @@
-// This is a simple example of a FSH file.
-// This file can be renamed, and additional FSH files can be added.
-// SUSHI will look for definitions in any file using the .fsh ending.
-Alias: $loinc = http://loinc.org
-Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
-Alias: $list-order = http://terminology.hl7.org/CodeSystem/list-order
-Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
-
 Profile: MedComCoreDocumentComposition
 Parent: Composition
 Id: medcom-core-document-composition
