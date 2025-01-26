@@ -1,3 +1,4 @@
+/*
 ValueSet: MedComXds_MsgClassCode
 Id: medcom-dk-xds-msg-classcode-VS
 Title: "DK IHE XDS Message Valueset"
@@ -7,10 +8,11 @@ Description: "Value set for the classCode attribute for DK IHE XDS Message. Clas
 * ^status = #active
 * ^date = "2025-01-01" //1.2.208.184.100.9
 * $DanishXdsOID#006 "Workflow"
+*/
 
-ValueSet: MedComXds_MsgClassCode
+ValueSet: MedComXds_MsgClassCodeVS
 Id: medcom-dk-xds-msg-classcode-VS
-Title: "DK IHE XDS Message Valueset"
+Title: "DK IHE XDS Message ClassCode Valueset"
 Description: "Value set for the classCode attribute for DK IHE XDS Message. ClassCode used in DK IHE XDS Document sharing"
 * ^experimental = true
 * ^version = "1.0.0"
@@ -18,7 +20,7 @@ Description: "Value set for the classCode attribute for DK IHE XDS Message. Clas
 * ^date = "2025-01-01" //1.2.208.184.100.9
 * $ClassCodeCS#006 "Workflow"
 
-ValueSet: MedComXds_MsgTypeCode
+ValueSet: MedComXds_MsgTypeCodeVS
 Id: medcom-dk-xds-msg-typecode-VS
 Title: "IHE XDS TypeCode"
 Description: "ValueSet containing TypeCode."
