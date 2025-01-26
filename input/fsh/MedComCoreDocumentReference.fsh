@@ -22,7 +22,7 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * authenticator ^type.aggregation = #contained
 // ClassCode
 * category 1..1 MS 
-* category from $ClassCode (extensible)
+* category from $ClassCodeVS (extensible)
 //* category.coding.code 1.. MS
 //* category.coding.system 1.. MS
 * category ^short = "[DocumentEntry.class] Categorization of document"
@@ -50,10 +50,10 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * content MS
 * content.attachment.contentType ^short = "[DocumentEntry.mimeType] Mime type of the content, with charset etc."
 * content.attachment.contentType 1.. MS
-* content.attachment.contentType from $ContentType
+* content.attachment.contentType from $ContentTypeVS
 * content.attachment.language ^short = "[DocumentEntry.languageCode] Human language of the content"
 * content.attachment.language 1.. MS
-* content.attachment.language from $Language (extensible)
+* content.attachment.language from $LanguageVS (extensible)
 * content.attachment.creation ^short = "[DocumentEntry.creationTime] Date attachment was first created"
 * content.attachment.creation 1.. MS
 * content.attachment.hash 0.. MS
@@ -80,12 +80,12 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * context.facilityType 1.. MS
 * context.facilityType.coding.code 1.. MS
 * context.facilityType.coding.system 1.. MS
-* context.facilityType.coding.system from $FacilityType (extensible)
+* context.facilityType.coding.system from $FacilityTypeVS (extensible)
 * context.facilityType ^short = "[DocumentEntry.healthcareFacilityTypeCode] Kind of facility where patient was seen"
 * context.practiceSetting 1.. MS
 * context.practiceSetting.coding.code 1.. MS
 * context.practiceSetting.coding.system 1.. MS
-* context.practiceSetting.coding.system from $PracticeSetting (extensible)
+* context.practiceSetting.coding.system from $PracticeSettingVS (extensible)
 * context.practiceSetting ^short = "[DocumentEntry.practiceSettingCode] Additional details about where the content was created (e.g. clinical specialty)"
 * context.related 0..* MS
 * context.related ^short = "[DocumentEntry.referenceIdList] Related identifiers or resources"
