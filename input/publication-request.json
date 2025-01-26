@@ -1,0 +1,14 @@
+{
+    "package-id": "medcom.fhir.dk.coredocument",
+    "version": "1.0.0",
+    "path": "http://medcomfhir.dk/ig/coredocument/1.0.0",
+    "status": "release",
+    "sequence": "Release",
+    "first" : true,
+    "ci-build" : "https://build.fhir.org/ig/medcomdk/dk-medcom-core-document",
+    "milestone" : true,
+    "title": "MedCom Core Document Profiles IG for MedCom Documents",
+    "category": "coredocument",
+    "introduction": "The MedCom Core Document Profiles IG for all MedCom Document Profiles from CDAs and FHIR Documents to Message Documents",
+    "descmd": "@release-notes.md"
+}
