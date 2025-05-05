@@ -25,12 +25,13 @@ contact:
         value: fhir@medcom.dk
         use: work
 
+
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-  hl7.fhir.dk.core: 3.3.0
+  hl7.fhir.dk.core: 3.4.0
   medcom.fhir.dk.core: 2.4.0
   medcom.fhir.dk.xdsmetadata: current #1.0.1
 
