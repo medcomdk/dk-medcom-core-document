@@ -92,8 +92,8 @@ Description: "A profile stating the rules, when exchanging a FHIR document."
 * context.sourcePatientInfo 1..1 MS
 * context.sourcePatientInfo ^short = "[DocumentEntry.sourcePatientId and DocumentEntry.sourcePatientInfo] Patient demographics from source. Must be the same reference as in DocumentReference.subject."
 * extension contains 
-    medcom-core-document-homecommunityid-extension named homeCommunityid 1..1 MS SU and
-    medcom-core-document-version-id-extension named versionid 1..1 MS SU
+    medcom-core-document-homecommunityid-extension named homeCommunityid 1..1 MS and
+    medcom-core-document-version-id-extension named versionid 1..1 MS
 * extension[homeCommunityid] ^short = "[DocumentEntry.homeCommunityId] A unique identifier for a community where the DocumentEntry and document can be accessed"
 * extension[versionid] ^short = "Specifies the version of the DocumentReference for a standard."
 
