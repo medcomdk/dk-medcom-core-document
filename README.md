@@ -1,1 +1,1 @@
-# dk-medcom-document
+# dk-medcom-core-document
